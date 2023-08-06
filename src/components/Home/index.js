@@ -60,16 +60,16 @@ class App extends Component {
       <div className="app-container" align = "center">
         <nav className="nav-container">
           <h1 className="title"> Task-2:Project Management Tool</h1>
-          <h2 className = "title">Bharat Intern </h2>
+          <h2 className = "title">BHARAT INTERN </h2>
         </nav>
-        <h1 className="create-task-heading">Create Project</h1>
+        <h1 className="create-task-heading">CREATE PROJECT</h1>
         <form className="form-container" onSubmit={this.submitForm}>
           <div className="input-label-container">
-            <label htmlFor="title" align = "center">Title*</label>
+            <label htmlFor="title" align = "center" text = "bold">TITLE</label>
             <center><input
               id="title"
               type="text"
-              placeholder="Project Title"
+              placeholder="PROJECT TITLE"
               onChange={this.changeTitle}
               value={title}
               align = "center"
@@ -78,12 +78,12 @@ class App extends Component {
             </center>
           </div>
           <div className="input-label-container" >
-            <label htmlFor="description">Description*</label>
+            <label htmlFor="description" align = "center" text = "bold">DESCRIPTION</label>
             <center>
             <textarea
               id="description"
               type="text"
-              placeholder="Project Description"
+              placeholder="PROJECT DESCRIPTION"
               rows="6"
               onChange={this.changeDescription}
               value={description}

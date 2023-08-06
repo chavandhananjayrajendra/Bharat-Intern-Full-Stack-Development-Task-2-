@@ -1,5 +1,5 @@
 * {
-  background-color: aqua;
+  background-color: rgba(255, 81, 0, 0.507);
   margin: 0px;
 }
 .app-container {
@@ -10,9 +10,9 @@
   font-family: "Bree Serif";
   font-weight: bold;
   margin: 17px;
-  color:green;
-  background-color: crimson;
-  text-decoration: underline rgb(0, 255, 136);
+  color:rgb(0, 128, 128);
+  background-color: rgb(220, 20, 20);
+  text-decoration:  rgb(0, 255, 136);
   text-align: center;
 }
 .nav-container {
@@ -26,11 +26,11 @@
 .form-container {
   padding: 25px;
   padding-top: 10px;
-  background-color: #ff00ea;
+  background-color: #d0ff00;
 }
 .input-label-container {
   display: flex;
-  background-color: rgba(165, 42, 42, 0.753);
+  background-color: rgba(42, 165, 93, 0.753);
   flex-direction: column;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -45,7 +45,7 @@ input {
   border-radius: 5px;
   padding: 5px;
   outline: none;
-  border: 1px solid gray;
+  border: 1px solid rgb(128, 128, 128);
   font-family: "Roboto";
 }
 textarea {
@@ -63,7 +63,7 @@ textarea {
   border: none;
   border-radius: 5px;
   color: aliceblue;
-  background-color: rgb(0, 17, 255);
+  background-color: rgba(0, 255, 136, 0);
   cursor: pointer;
   font-weight: 400;
 }
@@ -71,7 +71,7 @@ textarea {
   color: rgb(10, 252, 159);
   margin-top: 5px;
   font-size: 13px;
-  background-color: rgb(0, 110, 255);
+  background-color: rgb(255, 0, 242);
   font-family: "Roboto";
 }
 .projects-container {
